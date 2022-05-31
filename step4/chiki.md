@@ -6,7 +6,7 @@ Chiki Ra
 
 #### コードについての説明
   - 最初はスライド91ページの参考コードに従って、再帰なしのdfsコード、bfsコードを書きました。
-      -  dfs(no recursion) との違い：　.pop() を .ppoopleft()　にしただけ
+      -  dfs(no recursion) との違い：　.pop() を .popleft()　にしただけ
   - 辞書型の空checkリストを作って、checkされてないノードをcontainerに入れる前同時にcheckリストに入れることで、ループを防げます。
 
 - bfs、dfs（回帰なし） のroute:
